@@ -5,10 +5,10 @@ import Navbar from './component/Navbar';
 import Home from './Home';
 import About from './About';
 import CurrentTimeApi from './CurrentTimeApi';
-import {ReactComponent as Photo} from '../svg/1';
-import {ReactComponent as Photo2} from '../svg/2';
-import {ReactComponent as Photo3} from '../svg/3';
-import {ReactComponent as Photo4} from '../svg/4';
+import Photo from '../../svg/1.jfif';
+import Photo2 from '../../svg/2.jfif';
+import Photo3 from '../../svg/3.jfif';
+import Photo4 from '../../svg/4.jfif';
 
 function App() {
   var mensajeBienvenida = 'Si estás leyendo esto, significa que eres María Molas (hola maria jaja)'
@@ -36,10 +36,10 @@ function App() {
             </h6>
 
             <div>
-                <Photo/>
-                <Photo2/>
-                <Photo3/>
-                <Photo4/>
+                <img src={Photo} width="200px" height="200px" marginLeft="30px"/>
+                <img src={Photo2} width="200px" height="200px" marginLeft="30px"/>
+                <img src={Photo3} width="200px" height="200px" marginLeft="30px"/>
+                <img src={Photo4} width="200px" height="200px" marginLeft="30px"/>
             </div>
           </div>
           {/*<BrowserRouter>
