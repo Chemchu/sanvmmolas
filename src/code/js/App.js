@@ -4,11 +4,10 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Navbar from './component/Navbar';
 import Home from './Home';
 import About from './About';
-import CurrentTimeApi from './CurrentTimeApi';
-import Photo from '../../svg/1.jfif';
-import Photo2 from '../../svg/2.jfif';
-import Photo3 from '../../svg/3.jfif';
-import Photo4 from '../../svg/4.jfif';
+import Photo from '../../svg/1.png';
+import Photo2 from '../../svg/2.png';
+import Photo3 from '../../svg/3.png';
+import Photo4 from '../../svg/4.png';
 
 function App() {
   var mensajeBienvenida = 'Si estás leyendo esto, significa que eres María Molas (hola maria jaja)'
@@ -42,20 +41,7 @@ function App() {
                 <img src={Photo4} width="200px" height="200px" marginLeft="30px"/>
             </div>
           </div>
-          {/*<BrowserRouter>
-            <Navbar />
-            <div className="container mt-2" style={{ marginTop: 40 }}>
-              <Switch>
-                <Route exact path="/">
-                  <Home />
-                </Route>
-                <Route path="/about">
-                  <About />
-                </Route>
-              </Switch>
-            </div>
-          </BrowserRouter>*/}
-          {/*<CurrentTimeApi/>*/}
+          
         </div>
       </body>
     </div>
