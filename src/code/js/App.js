@@ -33,12 +33,13 @@ function App() {
             <h6>
                 No me ha dado tiempo a hacer más :(
             </h6>
-
             <div>
-                <img src={Photo} width="200px" height="200px" marginLeft="30px"/>
-                <img src={Photo2} width="200px" height="200px" marginLeft="30px"/>
-                <img src={Photo3} width="200px" height="200px" marginLeft="30px"/>
-                <img src={Photo4} width="200px" height="200px" marginLeft="30px"/>
+                <img src={Photo} style={{ height: "400px", width: "340px" }}/>
+                <img src={Photo2} style={{ height: "400px", width: "340px" }}/>
+                <img src={Photo4} style={{ height: "400px", width: "340px" }}/>
+            </div>
+            <div>
+            <img src={Photo3} style={{ height: "370px", width: "850px" }}/>
             </div>
           </div>
           
